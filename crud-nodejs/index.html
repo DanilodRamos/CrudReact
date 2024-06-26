@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD Node.js</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>CRUD Node.js</h1>
+
+    <!-- Formulário para adicionar um novo usuário -->
+    <form id="addUserForm">
+      <input type="text" id="name" placeholder="Nome" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="number" id="age" placeholder="Idade">
+      <button type="submit">Adicionar Usuário</button>
+    </form>
+
+    <hr>
+
+    <!-- Lista de usuários -->
+    <div id="userList">
+      <!-- Os usuários serão exibidos aqui dinamicamente -->
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
