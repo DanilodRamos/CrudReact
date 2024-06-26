@@ -1,5 +1,3 @@
-// scripts.js
-
 const addUserForm = document.getElementById('addUserForm');
 const userList = document.getElementById('userList');
 
